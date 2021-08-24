@@ -1,2 +1,2 @@
 # virtual dom
-学习virtual dom 和diff
+virtual dom 和diff底层原理
