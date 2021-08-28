@@ -1,11 +1,27 @@
 {
   "name": "virtualdom",
   "version": "1.0.0",
-  "description": "",
+  "description": "virtual dom 和diff底层原理",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincyGN/VirtualDOM.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincyGN/VirtualDOM/issues"
+  },
+  "homepage": "https://github.com/VincyGN/VirtualDOM#readme",
+  "dependencies": {
+    "snabbdom": "^3.0.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
