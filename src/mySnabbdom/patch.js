@@ -22,8 +22,8 @@ export default function patch(oldVnode, newVnode) {
             oldVnode.elm.parentNode.insertBefore(newVnodeElm, oldVnode.elm);
         }
         // 删除老节点
-        oldVnode.elm.parentNode.remove(oldVnode.elm);
+        oldVnode.elm.parentNode.removeChild(oldVnode.elm);
 
     }
-    // console.log(oldVnode);
+    console.log(oldVnode, newVnode);
 }
